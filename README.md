@@ -18,7 +18,7 @@ Also, that most customers ordered 1 product, of which the preponderance was Nest
 Shockingly, only roughly 0.55% of unique customers on the site actually purchased something on the site.
 
 ## Challenges 
-Data wrangling, namely the initial import of the csv files took the most time, because certain import methods with pgadmin did not work, so significant time was spent figuring out what import methods worked - namely moving the data to a c:\temp drive and using the using the COPY command and the query window in pgadmin.
+Data wrangling, namely the initial import of the csv files took the most time, because certain import methods with pgadmin did not work, so significant time was spent figuring out what import methods worked - namely moving the data to a c:\temp drive and using the COPY command and the query window in pgadmin.
 
 ## Future Goals
 I would figure out what cities in the united states are most popular (currently they're undefined). 
