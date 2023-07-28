@@ -22,5 +22,5 @@ Data wrangling, namely the initial import of the csv files took the most time, b
 
 ## Future Goals
 I would figure out what cities in the united states are most popular (currently they're undefined). 
-Also, increasing unique user's same-visit-purchases from 1 item to 3 or more utiling BOGO methods (Buy One Get One free) and other tactics.
+Also, increasing an unique user's same-visit-purchases from 1 item to 3 or more utilzing BOGO methods (Buy One Get One free) and other tactics.
 Thirdly, I would figure out where the optimum advertising spend is for the database owner. 
