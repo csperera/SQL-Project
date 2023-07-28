@@ -18,7 +18,9 @@ Also, that most customers ordered 1 product, of which the preponderance was Nest
 Shockingly, only roughly 0.5% of unique customers on the site actually purchased something. 
 
 ## Challenges 
-(discuss challenges you faced in the project)
+Data wrangling, namely the initial import of the csv files took the most time, because certain import methods with pgadmin did not work, so significant time was spent figuring out what import methods worked - namely moving the data to a c:\temp drive and using the using the COPY command and the query window in pgadmin.
 
 ## Future Goals
-(what would you do if you had more time?)
+I would figure out what cities in the united states are most popular (currently they're undefined). 
+Also, increasing unique user's same-visit-purchases from 1 item to 3 or more utiling BOGO methods (Buy One Get One free) and other tactics.
+Thirdly, I would figure out where the optimum advertising spend is for the database owner. 
