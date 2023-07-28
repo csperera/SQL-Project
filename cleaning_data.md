@@ -11,7 +11,7 @@ Typically data cleaning involves:
 
 3.Address Missing Values - This cannot be done with certainty here, so we did not do this
 
-4.Fixing Typos - Once again, we left this as-is
+4.Fixing Typos - All of the column names were changes from camel-case to all lowercase because of the issues with pgadmin4.
 
 I believe in not skewing the data too much by "over-cleaning" so I ran data assertion checks on all columns which might be NULL values from top to bottom, hence offering no additive value to the analysis.  The following columns were NULL from top to bottom and deleted: 
 
@@ -31,5 +31,7 @@ ALTER COLUMN timeonsite TYPE INT
 USING timeonsite::integer;
 
 ALTER TABLE all_sessions DROP COLUMN itemquantity;
+
+ALTER TABLE all_sessions RENAME COLUMN old_column_name TO new_column_name; <-- THIS WAS USED 27 TIMES
 
 
