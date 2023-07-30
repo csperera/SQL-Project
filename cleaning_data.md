@@ -32,6 +32,6 @@ USING timeonsite::integer;
 
 ALTER TABLE all_sessions DROP COLUMN itemquantity;
 
-ALTER TABLE all_sessions RENAME COLUMN old_column_name TO new_column_name; <-- THIS WAS USED 17 TIMES
+ALTER TABLE all_sessions RENAME COLUMN old_column_name TO new_column_name; 
 
 
