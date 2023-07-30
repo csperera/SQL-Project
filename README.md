@@ -13,7 +13,7 @@ Finally, I will develop and implement a QA process, and extract conclusions from
 
 ## Results
 This data could tell me purchasing patterns for the existing customer base.
-I discorvered that the highest level of transactions were from the United States
+I discovered that the highest level of transactions were from the United States
 Also, that most customers ordered 1 product, of which the preponderance was Nest products. 
 Shockingly, only roughly 0.55% of unique customers on the site actually purchased something on the site.
 
@@ -23,4 +23,4 @@ Data wrangling, namely the initial import of the csv files took the most time, b
 ## Future Goals
 I would figure out what cities in the united states are most popular (currently they're undefined). 
 Also, increasing an unique user's same-visit-purchases from 1 item to 3 or more utilzing BOGO methods (Buy One Get One free) and other tactics.
-Thirdly, I would figure out where the optimum advertising spend is for the database owner. 
+Thirdly, I would figure out where the optimum advertising spend is for the database owner/client.
