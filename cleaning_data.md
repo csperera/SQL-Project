@@ -24,6 +24,11 @@ Sumcheck – itemrevenue – NULL - deleted
 Queries:
 Below, provide the SQL queries you used to clean your data.
 
+COPY all_sessions
+FROM 'C:\temp\all_sessions.csv'
+DELIMITER ','
+CSV HEADER;
+
 SELECT SUM(timeonsite) AS sumcheck FROM analytics;
 
 ALTER TABLE analytics
